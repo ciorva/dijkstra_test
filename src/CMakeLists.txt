@@ -17,4 +17,5 @@ set(dijkstra_h
 )
 
 add_executable(dijkstra_exe ${dijkstra_src} ${dijkstra_h} )
+target_link_libraries(dijkstra_exe m)
 
